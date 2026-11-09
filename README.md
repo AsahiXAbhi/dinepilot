@@ -17,8 +17,8 @@ folder with any static host.
 | `about.html` | About — studio approach, principles, standards |
 | `contact.html` | Contact — demo enquiry form, what happens next |
 
-Shared styling lives in `assets/css/styles.css`; navigation, scroll reveals and the
-demo form behaviour are in `assets/js/main.js`. Photography is in `assets/img/`.
+Shared styling lives in `assets/css/styles.css`; navigation and scroll reveals are in
+`assets/js/main.js`. Photography is in `assets/img/`.
 
 ## Run locally
 
@@ -59,12 +59,11 @@ The site intentionally avoids fabricated content:
 
 ## The contact form
 
-`contact.html` contains a **demo form**. It validates fields in the browser and then
-displays a message explaining that nothing was sent. It does not transmit or store data.
-
-To make it live, connect it to a form backend (for example Formspree, Netlify Forms, or a
-small serverless endpoint) and remove the demo banner and the `data-demo-form` handler in
-`assets/js/main.js`. Do not replace the notice with a fake success message.
+`contact.html` sends enquiries to `asahixabhi07@gmail.com` through FormSubmit. FormSubmit
+requires the inbox owner to confirm its activation email after the first submission before
+it will deliver enquiries. FormSubmit retains submissions for 30 days. Review its
+[privacy information](https://formsubmit.co/privacy) before inviting visitors to submit
+personal details.
 
 ## Photography
 

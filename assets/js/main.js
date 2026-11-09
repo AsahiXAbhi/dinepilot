@@ -1,5 +1,5 @@
 /* DinePilot — interaction layer
-   Sticky header state, mobile navigation, scroll reveals, demo form. */
+   Sticky header state, mobile navigation and scroll reveals. */
 
 (function () {
   'use strict';
@@ -53,25 +53,6 @@
       desktop.addListener(closeOnDesktop);
     }
   }
-
-  /* ---------- Demo enquiry form ---------- */
-  document.querySelectorAll('[data-demo-form]').forEach(function (form) {
-    form.addEventListener('submit', function (event) {
-      event.preventDefault();
-
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-
-      var status = form.querySelector('[data-form-status]');
-      if (!status) return;
-
-      status.setAttribute('data-tone', 'info');
-      status.textContent = 'Demo only — nothing was sent. This showcase site is not connected to an enquiry inbox yet. In a live build, your message would be delivered to DinePilot.';
-      status.classList.add('is-visible');
-    });
-  });
 
   /* ---------- Footer year ---------- */
   var year = new Date().getFullYear();
