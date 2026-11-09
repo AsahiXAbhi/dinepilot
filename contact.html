@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact DinePilot — Let's Build Something Great</title>
+  <meta name="description" content="Tell DinePilot about your restaurant and what you'd like to improve online. Enquire about a restaurant website, online reservations or an AI assistant.">
+  <meta name="theme-color" content="#183D32">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DinePilot">
+  <meta property="og:title" content="Contact DinePilot">
+  <meta property="og:description" content="Start an enquiry about a restaurant website, reservations or an AI assistant. Clear steps, no hard sell.">
+  <meta property="og:image" content="assets/img/coffee-cheers.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css"></head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="DinePilot home">
+        <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+          <rect width="40" height="40" rx="11" fill="#183D32"/>
+          <path d="M20 9c-5.2 0-9.3 4-9.3 9.1 0 5.6 6.3 11.4 9.3 14 3-2.6 9.3-8.4 9.3-14C29.3 13 25.2 9 20 9Z" fill="none" stroke="#F5F7F3" stroke-width="2.1" stroke-linejoin="round"/>
+          <circle cx="20" cy="18.4" r="3.5" fill="none" stroke="#F5F7F3" stroke-width="2.1"/>
+          <circle cx="20" cy="18.4" r="1" fill="#F5F7F3"/>
+        </svg>
+        DinePilot
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--primary" href="contact.html">
+          Get Started
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+        </a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu" data-nav-toggle><span></span></button>
+      </div>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav" data-mobile-nav>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary" href="contact.html">Get Started</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="sep">/</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <h1>Let's Build Something Great.</h1>
+        <p class="lede">Tell us a little about your restaurant and what you'd like to improve online. Every project starts with a straightforward conversation — not a sales pitch.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: clamp(18px, 3vw, 32px);">
+      <div class="container contact-grid">
+        <form class="form-card" data-demo-form>
+          <div class="demo-banner" role="note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+            <div>
+              <strong>Demo form — not connected to an inbox.</strong>
+              This site is a demonstration build. Submitting won't send a message or store your details.
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Name <span class="opt" aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="restaurant">Restaurant name <span class="opt" aria-hidden="true">*</span></label>
+              <input id="restaurant" name="restaurant" type="text" autocomplete="organization" required>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="opt" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="website">Website <span class="opt">(optional)</span></label>
+              <input id="website" name="website" type="url" placeholder="https://" autocomplete="url">
+            </div>
+
+            <fieldset class="field--full">
+              <legend>What can we help with?</legend>
+              <div class="check-grid">
+                <label class="check">
+                  <input type="checkbox" name="interest" value="website">
+                  <span>New restaurant website</span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="interest" value="reservations">
+                  <span>Online reservations <em>(coming soon)</em></span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="interest" value="ai">
+                  <span>AI assistant <em>(in development)</em></span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="interest" value="other">
+                  <span>Something else</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="field field--full">
+              <label for="message">Message <span class="opt" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required placeholder="A little about your restaurant, your menu and what you'd like the site to do."></textarea>
+            </div>
+          </div>
+
+          <div class="form-footer">
+            <p>Fields marked * are required. This demo form does not transmit or store any data.</p>
+            <button class="btn btn--primary btn--lg" type="submit">
+              Send Enquiry
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+            </button>
+          </div>
+          <div class="form-status" role="status" aria-live="polite" data-form-status></div>
+        </form>
+
+        <aside>
+          <div class="steps-card">
+            <span class="eyebrow eyebrow--light">What happens next</span>
+            <h2>Three simple steps.</h2>
+            <ol>
+              <li>
+                <strong>A short conversation</strong>
+                <p>You tell us about your restaurant, your menu and what's frustrating you online.</p>
+              </li>
+              <li>
+                <strong>Scope and price in writing</strong>
+                <p>We confirm the pages you need, the content we'll work from and the $19 setup price.</p>
+              </li>
+              <li>
+                <strong>Design, review, launch</strong>
+                <p>You review a preview, request your included revision, and we hand over a live site.</p>
+              </li>
+            </ol>
+          </div>
+
+          <div class="aside-note">
+            <h3>Helpful to have ready</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>Your menu, even a rough version</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>Opening hours and address</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>Three to six photos of the food or room</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>Whether you already own a domain</li>
+            </ul>
+            <p style="margin-top: 14px;">You don't need everything ready to start. A rough menu and a few phone photos are enough for a first conversation.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section--tight" style="padding-bottom: clamp(40px, 5vw, 64px);">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <div class="cta-panel__inner">
+            <div>
+              <h2>Not ready to enquire? Start with the details.</h2>
+              <p>See exactly what the $19 setup includes, how free and premium hosting differ, and what's still in development.</p>
+            </div>
+            <div class="cta-panel__actions">
+              <a class="btn btn--light btn--lg" href="pricing.html">View Pricing</a>
+              <a class="btn btn--outline-light btn--lg" href="services.html">Explore Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a class="brand brand--footer" href="index.html" aria-label="DinePilot home">
+            <svg viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+              <rect width="40" height="40" rx="11" fill="#183D32"/>
+              <path d="M20 9c-5.2 0-9.3 4-9.3 9.1 0 5.6 6.3 11.4 9.3 14 3-2.6 9.3-8.4 9.3-14C29.3 13 25.2 9 20 9Z" fill="none" stroke="#F5F7F3" stroke-width="2.1" stroke-linejoin="round"/>
+              <circle cx="20" cy="18.4" r="3.5" fill="none" stroke="#F5F7F3" stroke-width="2.1"/>
+              <circle cx="20" cy="18.4" r="1" fill="#F5F7F3"/>
+            </svg>
+            DinePilot
+          </a>
+          <p class="footer__about">DinePilot helps independent cafés and small restaurants build a stronger online presence — thoughtful websites, digital menus and calmer digital experiences.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="work.html">Our Work</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#websites">Restaurant Websites</a></li>
+            <li><a href="services.html#reservations">Online Reservations</a></li>
+            <li><a href="services.html#assistants">AI Restaurant Assistants</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Start a project</h4>
+          <p>Tell us about your restaurant and what you'd like to improve online.</p>
+          <a class="link-arrow link-arrow--light" href="contact.html">
+            Start an enquiry
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+          </a>
+        </div>
+      </div>
+      <p class="footer__note">Beira Alta is a design demonstration created by DinePilot. It is not a commissioned client website, and this site presents no client testimonials, reviews or performance figures.</p>
+      <div class="footer__bottom">
+        <p>© <span data-year>2026</span> DinePilot. Your Restaurant. Better Connected.</p>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DinePilot">
+  <rect width="64" height="64" rx="17" fill="#183D32"/>
+  <path d="M32 13c-8.7 0-15.5 6.7-15.5 15.2C16.5 37.8 27 47.5 32 52c5-4.5 15.5-14.2 15.5-23.8C47.5 19.7 40.7 13 32 13Z" fill="none" stroke="#F5F7F3" stroke-width="3.4" stroke-linejoin="round"/>
+  <circle cx="32" cy="28.5" r="5.8" fill="none" stroke="#F5F7F3" stroke-width="3.4"/>
+  <circle cx="32" cy="28.5" r="1.7" fill="#F5F7F3"/>
+</svg>
